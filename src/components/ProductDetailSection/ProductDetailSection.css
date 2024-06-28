@@ -1,6 +1,7 @@
 .product-detail-section-container {
   margin-top: 94px;
   display: flex;
+  justify-content: center;
   gap: 24px;
   padding-bottom: 32px;
   border-bottom: 1px solid var(--gray200);
@@ -10,6 +11,7 @@
   width: 486px;
   height: 486px;
   border-radius: 16px;
+  object-fit: cover;
 }
 
 .product-detail-section-info {
@@ -30,10 +32,11 @@
 }
 
 hr {
-  width: 100%;
+  width: calc(1200px - 486px);
   border: 1px solid var(--gray200);
   border-bottom: none;
 }
+/*이 hr태그의 너비를 어떻게  */
 
 .product-detail-section-info-desc,
 .product-detail-section-info-tags {
