@@ -1,0 +1,16 @@
+.best-posts-section-container {
+  margin-top: 94px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 1200px;
+  .best-posts-section-title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .best-posts-section-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+}
